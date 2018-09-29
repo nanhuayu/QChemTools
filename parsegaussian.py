@@ -10,7 +10,7 @@ def parsegjf(fn):
         fcontent = f.read()
     molcontent = fcontent.split("\n\n")[2]
     molstrlist = [[j for j in i.split(" ") if j]
-                  for i in molstr.split('\n') if i][1:]
+                  for i in molcontent.split('\n') if i][1:]
     molecule = [atom.Atom(i[1],i[2],i[3], i[0]) for i in molstrlist]
     return molecule
 
