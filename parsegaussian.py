@@ -2,8 +2,10 @@ import os
 
 import atom
 
-atomnum = ['1','6','7','8','16']
-atomname = ['H','C','N','O','S']
+##atomnum = ['1','6','7','8','16','35']
+##atomname = ['H','C','N','O','S','Br']
+atomnum = atom.atominfo['number']
+atomname = atom.atominfo['name']
 
 def parsegjf(fn):
     with open(fn,'r',encoding='utf8') as f:

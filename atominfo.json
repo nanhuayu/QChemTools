@@ -33,7 +33,7 @@
 "Ge": {"number": 32, "name":"Ge", "color":"FFFFFF", "size":"1"},
 "As": {"number": 33, "name":"As", "color":"FFFFFF", "size":"1"},
 "Se": {"number": 34, "name":"Se", "color":"FFFFFF", "size":"1"},
-"Br": {"number": 35, "name":"Br", "color":"FFFFFF", "size":"1"},
+"Br": {"number": 35, "name":"Br", "color":"FF7755", "size":"1"},
 "Kr": {"number": 36, "name":"Kr", "color":"FFFFFF", "size":"1"},
 "Rb": {"number": 37, "name":"Rb", "color":"FFFFFF", "size":"1"},
 "Sr": {"number": 38, "name":"Sr", "color":"FFFFFF", "size":"1"},
